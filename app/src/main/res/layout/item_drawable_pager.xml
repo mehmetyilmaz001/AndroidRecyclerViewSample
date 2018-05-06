@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ /**
   ~  * Copyright (C) 2017 Ryan Kay Open Source Project
   ~  *
@@ -17,12 +16,10 @@
   ~  */
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/root_activity_detail"
+    android:id="@+id/imv_pager_image"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".detail.DetailActivity"
-    />
-
-
+    android:scaleType="centerCrop"
+    tools:src="@drawable/red_drawable" />

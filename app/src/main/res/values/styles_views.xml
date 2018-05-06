@@ -17,12 +17,20 @@
   ~  */
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/root_activity_detail"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".detail.DetailActivity"
-    />
+<resources>
 
+    <style name="ImageButtonToolbar" parent="Base.Widget.AppCompat.ImageButton">
+        <item name="android:padding">16dp</item>
+        <item name="background">?attr/selectableItemBackground</item>
 
+    </style>
+
+    <style name="EditTextCreateMessage" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:padding">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:inputType">textCapSentences|textMultiLine</item>
+        <item name="android:gravity">left|top</item>
+
+    </style>
+</resources>

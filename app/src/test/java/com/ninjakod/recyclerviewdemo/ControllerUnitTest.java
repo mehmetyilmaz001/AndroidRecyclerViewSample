@@ -3,7 +3,6 @@ package com.ninjakod.recyclerviewdemo;
 import com.ninjakod.recyclerviewdemo.data.DataSourceInterface;
 import com.ninjakod.recyclerviewdemo.data.ListItem;
 import com.ninjakod.recyclerviewdemo.logic.Controller;
-import com.ninjakod.recyclerviewdemo.view.ViewInterface;
 
 import org.junit.Before;
 import org.junit.Test;
